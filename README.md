@@ -7,15 +7,14 @@ Here an little script that will download random song with an minimun star choose
 
 Actual stuff in it :
 - [x] You can have an minimun and a maximun star input for specific level of map 
-
-New update added : 
-
 - [x] Added an debug mode
 - [x] Added a script to automaticly add the beatmaps to the game
 
-## To do list
+New stuff added :
+- [x] Make it look better
 
-- [ ] Make the script look better
+## To do list
+- [ ] Searching for idea 
 
 <p align="center"><strong><i>⚠️ To make the program work you need to install this :</i></strong</p>
 <br><br>

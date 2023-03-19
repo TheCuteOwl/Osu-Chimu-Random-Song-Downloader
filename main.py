@@ -14,7 +14,6 @@ def main():
         random_number = str(random.randint(100000, 160000))
         url = f"https://api.chimu.moe/v1/download/{random_number}?n=1"
 
-        # Fetch the beatmap difficulty rating from the API
         beatmap_url = f"https://api.chimu.moe/v1/map/{random_number}"
         response = requests.get(beatmap_url)
         try:
@@ -23,7 +22,7 @@ def main():
             song_name = data["OsuFile"]
         except KeyError:
             continue
-        print(star_rating)
+            
         if star_rating < min_star or star_rating > max_star:
             continue
 
@@ -31,7 +30,6 @@ def main():
         star_rating = f"{star_rating}".replace(".","")
 
         # Check if file already exists
-        filename1 = f"{star_rating} Apophis {song_name}.osz"
         if os.path.isfile(os.path.join('OsuSong', filename1)):
             continue
 

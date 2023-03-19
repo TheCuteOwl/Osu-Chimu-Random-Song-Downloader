@@ -22,14 +22,13 @@ def main():
             song_name = data["OsuFile"]
         except KeyError:
             continue
-            
-        if star_rating < min_star or star_rating > max_star:
+        if star_rating < min_star and star_rating > max_star:
             continue
 
         song_name = song_name.replace(".", "_")
         star_rating = f"{star_rating}".replace(".","")
 
-        # Check if file already exists
+        filename1 = f"{star_rating} TheCuteOwl | Github {song_name}.osz"
         if os.path.isfile(os.path.join('OsuSong', filename1)):
             continue
 

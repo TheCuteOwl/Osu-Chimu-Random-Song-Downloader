@@ -7,7 +7,11 @@ Here an little script that will download random song with an minimun star choose
 
 New update : 
 
-You can have an minimun and a maximun star input for specific level of map ^^
+- [x] You can have an minimun and a maximun star input for specific level of map ^^
+
+## To do list
+
+- [ ] Make it to add it to the osu folder automaticly 
 
 <p align="center"><strong><i>⚠️ To make the program work you need to install this :</i></strong</p>
 <br><br>

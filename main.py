@@ -1,8 +1,6 @@
 import requests
 import random
 import os, sys, subprocess
-import Launchall
-from Launchall import main
 import shutil
 import colorama
 from colorama import Fore, init

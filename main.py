@@ -108,7 +108,7 @@ def main():
             end()
         else:
             pass
-        random_number = str(random.randint(100000, 160000))
+        random_number = str(random.randint(1, 200000))
         url = f"https://api.chimu.moe/v1/download/{random_number}?n=1"
         if Debug == 'True':
             print_centered(f'{Green}Generating{Reset} new link...')
